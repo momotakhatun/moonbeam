@@ -1,0 +1,11 @@
+// Bootstrap theme change
+
+// import bootstrap sass file
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./nav/navber";
+
+//Custom codes
+
+body {
+  background-color: #ddd;
+}
