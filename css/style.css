@@ -10853,6 +10853,10 @@ button {
 .specification-section .brands {
   margin: 60px;
 }
+.specification-section .image-responsive {
+  width: 300px;
+  height: 300px;
+}
 
 .extra-margin {
   margin-top: 80px;
