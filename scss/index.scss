@@ -1,11 +1,21 @@
 // Bootstrap theme change
 
 // import bootstrap sass file
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import "./nav/navber";
+@import "./footer/footer";
+@import "./hero/hero.scss";
+@import "./feature/feature";
+@import "./carousel/carousel";
+@import "./cta/cta";
+@import "./specification/specification.scss";
 
 //Custom codes
 
-body {
-  background-color: #ddd;
+// body {
+//   background-color: #ddd;
+// }
+
+.extra-margin {
+  margin-top: 80px;
 }

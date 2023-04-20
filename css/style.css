@@ -10719,5 +10719,143 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar {
+  height: 80px;
+}
+.navbar .image-icon {
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+}
+.navbar .nav-item .download {
+  padding: 0.5rem;
+  background: linear-gradient(to right, #8b62ff, #3b1bff);
+  border: none;
+  outline: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+footer .social-icon {
+  display: inline-flex;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-right: 0.25rem;
+  color: #333;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+footer .social-icon:hover {
+  color: rgb(97, 97, 207);
+}
+footer .newsletter-group {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  display: inline-flex;
+}
+footer .newsletter-group .form-control {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 5px 0px 0px 5px;
+}
+footer .newsletter-group .form-control:hover,
+footer .newsletter-group .form-control:focus {
+  outline: none !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+footer .newsletter-group button {
+  background: linear-gradient(90deg, #8b62ff, #3b2bff);
+  color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+}
+
+.hero-section {
+  background-image: url("../../images/group-young-people.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 12% 0;
+  opacity: 0.95;
+}
+
+.title-head,
+.para {
+  color: #fff;
+  text-shadow: 0 1px 3px #000;
+}
+
+button {
+  background: linear-gradient(to right, #8b62ff, #3b1bff);
+  outline: none;
+  border: none;
+}
+
+.featured-section {
+  padding: 60px 0;
+}
+.featured-section .icon-container {
+  font-size: 3rem;
+}
+
+.carousel-section {
+  padding: 60px 0 80px 0;
+}
+.carousel-section .carousel-indicators {
+  bottom: 0;
+  transform: translateY(50px);
+}
+.carousel-section .carousel-indicator-item {
+  width: 1rem !important;
+  height: 1rem !important;
+  border-radius: 50% !important;
+  border: 1px solid gray;
+}
+
+.col-to-action-section {
+  padding: 60px 0;
+  background: linear-gradient(90deg, #0c0633 10%, #000851 100%);
+  color: #fff;
+}
+.col-to-action-section .btn {
+  background: linear-gradient(to right, #8b62ff, #3b1bff);
+  color: #fff;
+}
+
+.specification-section {
+  padding: 60px 0;
+}
+.specification-section .specs {
+  padding-left: 40px;
+  list-style: none;
+}
+.specification-section .specs li {
+  position: relative;
+  margin-bottom: 30px;
+}
+.specification-section .specs li:before {
+  font-family: font Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  contain: "\f058";
+  position: absolute;
+  left: -50px;
+  margin-top: -2px;
+  color: #8b62ff;
+}
+.specification-section .brands {
+  margin: 60px;
+}
+
+.extra-margin {
+  margin-top: 80px;
+}
 
 /*# sourceMappingURL=style.css.map */
